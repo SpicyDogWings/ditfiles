@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Open in Ghostty
+Comment=Open %F in GDostty
+Exec=ghostty --working-directory="%F"
+Icon-Name=Ghostty
+Selection=any
+Extensions=any;
+Dependencies=ghostty;
+Quote=double

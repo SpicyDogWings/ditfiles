@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Open in Neovide
+Comment=Open current dir in Neovide
+Exec=neovide %F
+Icon-Name=Neovide
+Selection=any
+Extensions=any;
+Dependencies=neovide;
+Quote=double
