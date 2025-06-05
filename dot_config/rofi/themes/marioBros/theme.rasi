@@ -1,0 +1,79 @@
+@import "vars"
+
+* {
+    color: @secondary-color;
+}
+
+window {
+    location: northwest;
+    anchor: northwest;
+    background: @background-color;
+    border-radius: 10px;
+    border-color: @primary-color;
+    border: 1px;
+    padding: 10px 0;
+    width: 300px;
+    height: 100%;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing: 5px;
+    padding: 0;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+    spacing: 5px;
+    padding: 0 5px;
+}
+
+prompt {
+    enabled: true;
+    padding: 10px 10px;
+    color: @complementary-color;
+    border-radius: 10px;
+}
+
+entry {
+    color: @complementary-color;
+    padding: 10px 20px;
+    placeholder: "Type here";
+    placeholder-color: @secondary-color;
+    cursor: pointer;
+}
+
+listview {
+    columns: 1;
+    /* lines: 15; */
+    cycle: true;
+    layout: vertical;
+}
+
+element {
+    padding: 10px 20px;
+    spacing: 1em;
+    children: [ element-icon, element-text ];
+}
+
+element-text {
+    color: @foreground-color-bold;
+}
+
+element-icon {
+    background-color: inherit;
+    size: 1em;
+}
+
+element selected {
+    background-color: @primary-color;
+}
+
+element-text selected {
+    background-color: @primary-color;
+    color: @background-color;
+}
+
+scrollbar {
+    handle-color: @foreground-color;
+}
