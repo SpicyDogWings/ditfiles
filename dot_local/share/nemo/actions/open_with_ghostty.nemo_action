@@ -4,7 +4,7 @@ Name=Open in Ghostty
 Comment=Open %F in GDostty
 Exec=ghostty --working-directory="%F"
 Icon-Name=Ghostty
-Selection=any
+Selection=none
 Extensions=any;
 Dependencies=ghostty;
 Quote=double
