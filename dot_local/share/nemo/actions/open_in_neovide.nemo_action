@@ -2,9 +2,8 @@
 Active=true
 Name=Open in Neovide
 Comment=Open current dir in Neovide
-Exec=neovide %F
+Exec=bash -c "cd %D && neovide ."
 Icon-Name=Neovide
 Selection=none
 Extensions=any;
 Dependencies=neovide;
-Quote=double
