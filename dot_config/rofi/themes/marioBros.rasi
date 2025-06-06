@@ -1,23 +1,47 @@
-@import "vars"
+configuration {
+    modes: [ drun, window, run ];
+    font: "0xProto Nerd Font 10";
+    show-icons: true;
+    drun {
+        display-name: "";
+    }
+    window {
+        display-name: "";
+    }
+    run {
+        display-name: "";
+    }
+    location: 0;
+    yoffset: 0;
+    xoffset: 0;
+    kb-mode-next: "Control+Shift+Tab,bracketright";
+    kb-mode-previous: "Control+Tab,bracketleft";
+}
 
 * {
+    primary-color: #4300FF;
+    secondary-color: #7F8CAA;
+    complementary-color: #EFE4D2;
+    surface-color: #131D4F;
+    background-color: #292936;
     color: @secondary-color;
+    foreground-color: @secondary-color;
 }
 
 window {
-    location: northwest;
-    anchor: northwest;
+    location: center;
+    anchor: center;
     background: @background-color;
     border-radius: 10px;
     border-color: @primary-color;
     border: 1px;
     padding: 10px 0;
     width: 300px;
-    height: 100%;
+    height: 80%;
 }
 
 mainbox {
-    children: [ inputbar, listview ];
+    children: [ inputbar, listview, mode-switcher ];
     spacing: 5px;
     padding: 0;
 }
@@ -74,6 +98,21 @@ element-text selected {
     color: @background-color;
 }
 
-scrollbar {
-    handle-color: @foreground-color;
+mode-switcher {
+    orientation: horizontal;
+    background-color: @background-color;
+    spacing: 10px;
+    padding: 10 20px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: @surface-color;
+    color: @secondary-color;
+    border-radius: 5px;
+}
+
+button selected {
+    background-color: @primary-color;
+    color: @complementary-color;
 }
