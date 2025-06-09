@@ -1,0 +1,12 @@
+
+[opener]
+edit = [
+	{ run = '$EDITOR "$@"', orphan = true, for = "unix", desc="Editar"},
+]
+open = [
+	{ run = '$EDITOR "$@"/..', orphan = true, desc = "Abrir en editor", for = "unix" },
+	{ run = 'ghostty --working-directory="$@/.."', orphan = true, desc = "Abrir en terminal", for = "unix" },
+	{ run = 'zeditor "$@"', orphan = true, desc = "Abrir en editor grafico", for = "unix" },
+	{ run = 'nemo "$@"', orphan = true, desc = "Abrir en navegador de archivos", for = "unix" },
+]
+
