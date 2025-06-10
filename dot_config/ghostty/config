@@ -45,6 +45,6 @@
 
 
 # rise
-theme=AtelierSulphurpool
+theme=minimal
 font-family=0xProto Nerd Font
 background-opacity=0.9
