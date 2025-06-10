@@ -2,12 +2,12 @@
   border: none;
   border-radius: 0;
   min-height: 0;
-  font-family: JetBrainsMono Nerd Font;
+  font-family: SpaceMono Nerd Font, sans;
   font-size: 13px;
 }
 
 window#waybar {
-  background-color: #181825;
+  background-color: transparent;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -30,20 +30,20 @@ window#waybar.hidden {
   padding: 6px 18px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #1e1e2e;
-  color: #cdd6f4;
+  background-color: #cccccc;
+  color: #2c2c2c;
 }
 
 #workspaces button.active {
-  color: #1e1e2e;
-  background-color: #cdd6f4;
+  color: #2c2c2c;
+  background-color: #eeeeee;
 }
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
-  color: #1e1e2e;
-  background-color: #cdd6f4;
+  color: #eeeeee;
+  background-color: #999999;
 }
 
 #workspaces button.urgent {
@@ -61,8 +61,8 @@ window#waybar.hidden {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #1e1e2e;
-  color: #181825;
+  background-color: #eeeeee;
+  color: #2c2c2c;
 }
 
 #custom-power {
@@ -75,27 +75,28 @@ window#waybar.hidden {
   margin-left: 5px;
   font-size: 15px;
   border-radius: 8px 0px 0px 8px;
-  color: #1793d1;
+  color: #eeeeee;
 }
 
 #memory {
-  background-color: #fab387;
+  color: #2c2c2c;
+  background-color: #eeeeee;
 }
 
 #battery {
-  background-color: #f38ba8;
+  background-color: #eeeeee;
 }
 
 #battery.warning,
 #battery.critical,
 #battery.urgent {
   background-color: #ff0000;
-  color: #FFFF00;
+  color: #eeeeee;
 }
 
 #battery.charging {
-  background-color: #a6e3a1;
-  color: #181825;
+  background-color: #0000ff;
+  color: #eeeeee;
 }
 
 #backlight {
@@ -103,31 +104,31 @@ window#waybar.hidden {
 }
 
 #wireplumber {
-  background-color: #f9e2af;
+  background-color: #eeeeee;
 }
 
 #network {
-  background-color: #94e2d5;
+  background-color: #eeeeee;
   padding-right: 17px;
 }
 
 #clock {
-  font-family: JetBrainsMono Nerd Font;
-  background-color: #cba6f7;
+  color: #2c2c2c;
+  background-color: #eeeeee;
 }
 
 #custom-power {
-  background-color: #f2cdcd;
+  background-color: #ffffff;
 }
 
 
 tooltip {
   border-radius: 8px;
   padding: 15px;
-  background-color: #131822;
+  color: #eeeeee;
+  background-color: #2c2c2c;
 }
 
 tooltip label {
   padding: 5px;
-  background-color: #131822;
 }
