@@ -1,9 +1,8 @@
 [Nemo Action]
-Active=true
 Name=Open in Neovide
 Comment=Open current dir in Neovide
 Exec=bash -c "cd %D && neovide ."
 Icon-Name=Neovide
 Selection=none
-Extensions=any;
-Dependencies=neovide;
+Extensions=dir
+Dependencies=neovide

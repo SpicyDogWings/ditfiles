@@ -1,5 +1,5 @@
 # Add deno completions to search path
-if [[ ":$FPATH:" != *":/home/spicydogwings/.zsh/completions:"* ]]; then export FPATH="/home/spicydogwings/.zsh/completions:$FPATH"; fi
+if [[ ":$FPATH:" != *":/home/spacedogwings/.zsh/completions:"* ]]; then export FPATH="/home/spacedogwings/.zsh/completions:$FPATH"; fi
 export PATH="$HOME/.bin:$PATH"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
@@ -7,6 +7,7 @@ export PATH="$HOME/.bin:$PATH"
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR="neovide"
+export SUDO_EDITOR="neovide"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -119,14 +120,14 @@ function y() {
 
 ### Dev enviroment
 # fnm
-FNM_PATH="/home/spicydogwings/.local/share/fnm"
+FNM_PATH="/home/spacedogwings/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
-  export PATH="/home/spicydogwings/.local/share/fnm:$PATH"
+  export PATH="/home/spacedogwings/.local/share/fnm:$PATH"
   eval "`fnm env`"
 fi
-. "/home/spicydogwings/.deno/env"
+. "/home/spacedogwings/.deno/env"
 # lando
-export PATH="/home/spicydogwings/.lando/bin:$PATH"; #landopath
+export PATH="/home/spacedogwings/.lando/bin:$PATH"; #landopath
 
 ### services?
 # zoxide

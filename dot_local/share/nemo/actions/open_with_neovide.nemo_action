@@ -1,10 +1,8 @@
 [Nemo Action]
-Active=true
 Name=Open with Neovide
 Comment=Open current selection in Neovide
 Exec=neovide %F
 Icon-Name=Neovide
-Selection=single
-Extensions=any;
-Dependencies=neovide;
-Quote=double
+Selection=s
+Extensions=any
+Dependencies=neovide

@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Open with Kitty
+Comment=Open %F with Kitty
+Exec=kitty -d %F
+Icon-Name=term
+Selection=s
+Extensions=dir
+Dependencies=kitty

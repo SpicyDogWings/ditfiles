@@ -1,10 +1,8 @@
 [Nemo Action]
-Active=true
 Name=Open with Zed
 Comment=Open selection in Zed
 Exec=zeditor %F
 Icon-Name=Terminal
-Selection=single
-Extensions=any;
-Dependencies=zeditor;
-Quote=double
+Selection=s
+Extensions=any
+Dependencies=zeditor

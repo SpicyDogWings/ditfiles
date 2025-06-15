@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Open in Ghostty
+Comment=Open %D in Ghostty
+Exec=ghostty --working-directory="%D"
+Icon-Name=term
+Selection=none
+Extensions=dir
+Dependencies=ghostty

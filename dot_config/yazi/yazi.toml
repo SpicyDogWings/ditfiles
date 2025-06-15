@@ -1,12 +1,16 @@
 
 [opener]
 edit = [
-	{ run = '$EDITOR "$@"', orphan = true, for = "unix", desc="Editar"},
+    { run = '$EDITOR "$@"',  orphan = true, for = "unix", desc = "Editar" },
+    { run = 'sudoedit "$@"', orphan = true, for = "unix", desc = "Editar con sudo" },
 ]
 open = [
-	{ run = '$EDITOR "$@"/..', orphan = true, desc = "Abrir en editor", for = "unix" },
-	{ run = 'ghostty --working-directory="$@/.."', orphan = true, desc = "Abrir en terminal", for = "unix" },
-	{ run = 'zeditor "$@"', orphan = true, desc = "Abrir en editor grafico", for = "unix" },
-	{ run = 'nemo "$@"', orphan = true, desc = "Abrir en navegador de archivos", for = "unix" },
+    { run = '$EDITOR "$@"/..', orphan = true, desc = "Abrir", for = "unix" },
+    { run = 'sudoedit "$@"/..', orphan = true, desc = "Abrir en sudo", for = "unix" },
+    #{ rxun = 'ghostty --working-directory="$@/.."', block = true, orphan = true, desc = "Abrir en terminal", for = "unix" },
+    { run = 'kitty -d $@/..', orphan = true, desc = "Abrir en terminal", for = "unix" },
+    { run = 'zeditor "$@"', orphan = true, desc = "Abrir en grafico", for = "unix" },
+    #{ run = 'sudo zeditor "$@"', orphan = true, desc = "Abrir en grafico sudo", for = "unix" },
+    #{ run = 'nemo "$@"', block = true, orphan = true, desc = "Abrir en navegador de archivos", for = "unix" },
+    { run = 'dolphin "$@/.."', orphan = true, desc = "Abrir en navegador de archivos", for = "unix" },
 ]
-

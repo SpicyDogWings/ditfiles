@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Agregar a Chezmoi
+Comment=Añade el directorio actual a Chezmoi
+Exec=chezmoi add %D
+Icon=folder-add
+Selection=none
+Extensions=dir
+Dependencies=chezmoi

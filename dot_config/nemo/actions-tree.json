@@ -1,0 +1,199 @@
+{
+  "toplevel": [
+    {
+      "uuid": "90_new-launcher.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": "",
+      "accelerator": "Return"
+    },
+    {
+      "uuid": "separator",
+      "type": "separator",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "Chezmoi",
+      "type": "submenu",
+      "user-label": "Chezmoi",
+      "user-icon": null,
+      "accelerator": null,
+      "children": [
+        {
+          "uuid": "add_this_to_chezmoi.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "git",
+          "accelerator": null
+        },
+        {
+          "uuid": "add_to_chezmoi.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "git",
+          "accelerator": null
+        }
+      ]
+    },
+    {
+      "uuid": "separator0",
+      "type": "separator",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "Open with",
+      "type": "submenu",
+      "user-label": "Open with",
+      "user-icon": null,
+      "accelerator": null,
+      "children": [
+        {
+          "uuid": "open_with_neovide.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "neovide",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_with_kitty.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "terminal",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_with_zed.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "zed",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_with_ghostty.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "com.mitchellh.ghostty",
+          "accelerator": null
+        }
+      ]
+    },
+    {
+      "uuid": "Abrir en",
+      "type": "submenu",
+      "user-label": "Abrir en",
+      "user-icon": null,
+      "accelerator": null,
+      "children": [
+        {
+          "uuid": "open_in_neovide.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "neovide",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_in_kitty.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "kitty",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_in_ghostty.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "com.mitchellh.ghostty",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_in_zed.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "zed",
+          "accelerator": null
+        },
+        {
+          "uuid": "separator",
+          "type": "separator",
+          "user-label": null,
+          "user-icon": null,
+          "accelerator": null
+        }
+      ]
+    },
+    {
+      "uuid": "90_new-workspace.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "91_delete-workspace.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "92_show-expo.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "add-desklets.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "change-background.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "mount-archive.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "sample.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "set-as-background.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "set-resolution.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    },
+    {
+      "uuid": "test.nemo_action",
+      "type": "action",
+      "user-label": null,
+      "user-icon": null,
+      "accelerator": null
+    }
+  ]
+}
