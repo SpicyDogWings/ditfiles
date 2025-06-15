@@ -1,8 +1,8 @@
 [Nemo Action]
-Name=Open in Zed
-Comment=Open current dir in Zed
+Name=Abrir en Zed
+Comment=Abrir %D en Zed
 Exec=zeditor %D
 Icon-Name=Terminal
 Selection=none
 Extensions=dir
-Dependencies=chezmoi
+Dependencies=zeditor

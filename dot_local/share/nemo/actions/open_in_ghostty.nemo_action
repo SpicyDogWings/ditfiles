@@ -1,6 +1,6 @@
 [Nemo Action]
-Name=Open in Ghostty
-Comment=Open %D in Ghostty
+Name=Abrir en Ghostty
+Comment=Abrir %D en Ghostty
 Exec=ghostty --working-directory="%D"
 Icon-Name=term
 Selection=none

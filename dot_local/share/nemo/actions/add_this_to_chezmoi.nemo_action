@@ -5,4 +5,4 @@ Exec=chezmoi add %F
 Icon=folder-add
 Selection=notnone
 Extensions=any
-Dependencies=chezmoi
+Dependencies=chezmoi;git

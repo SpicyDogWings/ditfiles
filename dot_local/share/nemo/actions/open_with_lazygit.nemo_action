@@ -1,8 +1,8 @@
 [Nemo Action]
-Name=Abrir con Kitty
+Name=Abrir con lazygit
 Comment=Abrir %F con Kitty
-Exec=kitty -d %F
+Exec=kitty -d %F lazygit
 Icon-Name=term
 Selection=s
 Extensions=dir
-Dependencies=kitty
+Dependencies=kitty;git;lazygit

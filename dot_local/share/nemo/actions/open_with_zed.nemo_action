@@ -1,6 +1,6 @@
 [Nemo Action]
-Name=Open with Zed
-Comment=Open selection in Zed
+Name=Abrir con Zed
+Comment=Abrir %F con Zed
 Exec=zeditor %F
 Icon-Name=Terminal
 Selection=s

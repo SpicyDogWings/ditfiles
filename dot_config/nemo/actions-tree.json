@@ -15,12 +15,26 @@
       "accelerator": null
     },
     {
-      "uuid": "Chezmoi",
+      "uuid": "Git",
       "type": "submenu",
-      "user-label": "Chezmoi",
+      "user-label": "Git",
       "user-icon": null,
       "accelerator": null,
       "children": [
+        {
+          "uuid": "open_with_lazygit.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "git",
+          "accelerator": null
+        },
+        {
+          "uuid": "open_in_lazygit.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "git",
+          "accelerator": null
+        },
         {
           "uuid": "add_this_to_chezmoi.nemo_action",
           "type": "action",
@@ -34,6 +48,20 @@
           "user-label": null,
           "user-icon": "git",
           "accelerator": null
+        },
+        {
+          "uuid": "forget_this_to_chezmoi.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "cancel",
+          "accelerator": null
+        },
+        {
+          "uuid": "forget_to_chezmoi.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "cancel",
+          "accelerator": null
         }
       ]
     },
@@ -45,9 +73,9 @@
       "accelerator": null
     },
     {
-      "uuid": "Open with",
+      "uuid": "Editar con",
       "type": "submenu",
-      "user-label": "Open with",
+      "user-label": "Editar con",
       "user-icon": null,
       "accelerator": null,
       "children": [
@@ -59,17 +87,26 @@
           "accelerator": null
         },
         {
-          "uuid": "open_with_kitty.nemo_action",
-          "type": "action",
-          "user-label": null,
-          "user-icon": "terminal",
-          "accelerator": null
-        },
-        {
           "uuid": "open_with_zed.nemo_action",
           "type": "action",
           "user-label": null,
           "user-icon": "zed",
+          "accelerator": null
+        }
+      ]
+    },
+    {
+      "uuid": "Abrir con",
+      "type": "submenu",
+      "user-label": "Abrir con",
+      "user-icon": null,
+      "accelerator": null,
+      "children": [
+        {
+          "uuid": "open_with_kitty.nemo_action",
+          "type": "action",
+          "user-label": null,
+          "user-icon": "terminal",
           "accelerator": null
         },
         {
@@ -82,9 +119,9 @@
       ]
     },
     {
-      "uuid": "Open in",
+      "uuid": "Abrir en",
       "type": "submenu",
-      "user-label": "Open in",
+      "user-label": "Abrir en",
       "user-icon": null,
       "accelerator": null,
       "children": [

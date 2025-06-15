@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Abrir en Lazygit
+Comment=Abrir %D en Lazygit
+Exec=kitty -d %D lazygit
+Icon-Name=term
+Selection=none
+Extensions=dir
+Dependencies=kitty;git;lazygit

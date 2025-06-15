@@ -1,6 +1,6 @@
 [Nemo Action]
-Name=Open in Kitty
-Comment=Open %D in Kitty
+Name=Abrir en Kitty
+Comment=Abrir %D en Kitty
 Exec=kitty -d %D
 Icon-Name=term
 Selection=none

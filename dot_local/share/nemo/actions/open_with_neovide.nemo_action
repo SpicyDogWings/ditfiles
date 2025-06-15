@@ -1,6 +1,6 @@
 [Nemo Action]
-Name=Open with Neovide
-Comment=Open current selection in Neovide
+Name=Abrir con Neovide
+Comment=Abrir %F con Neovide
 Exec=neovide %F
 Icon-Name=Neovide
 Selection=s

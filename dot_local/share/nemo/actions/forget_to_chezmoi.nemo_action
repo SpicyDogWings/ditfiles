@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Olvidar de Chezmoi
+Comment=Olvidar el directorio actual de Chezmoi
+Exec=chezmoi forget %D
+Icon=folder-add
+Selection=none
+Extensions=dir
+Dependencies=chezmoi;git
