@@ -82,9 +82,9 @@
       ]
     },
     {
-      "uuid": "Abrir en",
+      "uuid": "Open in",
       "type": "submenu",
-      "user-label": "Abrir en",
+      "user-label": "Open in",
       "user-icon": null,
       "accelerator": null,
       "children": [
@@ -183,13 +183,6 @@
     },
     {
       "uuid": "set-resolution.nemo_action",
-      "type": "action",
-      "user-label": null,
-      "user-icon": null,
-      "accelerator": null
-    },
-    {
-      "uuid": "test.nemo_action",
       "type": "action",
       "user-label": null,
       "user-icon": null,

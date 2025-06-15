@@ -1,8 +1,9 @@
 
-@define-color background #0B1D51;
-@define-color background-hover #725CAD;
-@define-color accent #8CCDEB;
-@define-color urgent #901E3E;
-@define-color event #5409DA;
-@define-color error #F564A9;
+@define-color background #333333;
+@define-color background-hover #666666;
+@define-color foreground #eeeeee;
+@define-color accent #60B5FF;
+@define-color urgent #FEBA17;
+@define-color event #0118D8;
+@define-color error #F7374F;
 

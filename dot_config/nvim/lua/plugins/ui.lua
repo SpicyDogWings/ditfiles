@@ -2,14 +2,17 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "oxocarbon",
     },
   },
   {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
-      flavour = "latte",
+      flavour = "mocha",
     },
+  },
+  {
+    "nyoom-engineering/oxocarbon.nvim",
   },
 }

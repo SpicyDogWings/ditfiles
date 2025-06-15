@@ -3,6 +3,6 @@ Name=Agregar este a Chezmoi
 Comment=Añade estos elementos a Chezmoi
 Exec=chezmoi add %F
 Icon=folder-add
-Selection=s;m
+Selection=notnone
 Extensions=any
 Dependencies=chezmoi

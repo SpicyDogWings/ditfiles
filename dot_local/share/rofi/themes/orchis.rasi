@@ -10,45 +10,41 @@ configuration {
     display-run: "Comandos";
     display-window: "Ventanas";
     display-ssh: "SSH";
-    sidebar-mode: false;
+    sidebar-mode: true;
 }
 
-/* Base colors - Adjust these to perfectly match your Orchis setup */
 * {
-    /* Backgrounds */
-    background-color: #333446; /* Un blanco muy suave, casi gris claro */
-    background-alt:   #332D56; /* Un blanco más puro para la selección o barra */
+    background-color: #222222;
+    background-alt:   #111111;
 
-    /* Foreground / Text */
-    foreground:       #8CCDEB; /* Un gris oscuro suave para el texto principal */
-    selected-normal-foreground: #FCECDD; /* El mismo para texto seleccionado */
-    selected-normal-background: #725CAD; /* Gris claro para el fondo de la selección */
+    foreground:       #eeeeee;
+    selected-normal-foreground: #FCECDD;
+    selected-normal-background: #333333;
 
-    /* Borders */
-    border-color:     #333446; /* Un gris medio para bordes sutiles */
+    border-color:     #222222;
 
-    /* Accent colors (inspired by Orchis's blues/purples) */
-    blue-light:       #7bbefc; /* Azul claro suave para toques de acento */
-    blue-dark:        #5a8acd; /* Azul más oscuro para degradados o texto secundario */
+    accent:           #7bbefc;
+    blue-dark:        #5a8acd;
 }
 
 window {
     background-color: @background-color;
     border:           2px;
     border-color:     @border-color;
-    padding:          10px; /* Un poco de padding para respirar */
-    width:            40%; /* Puedes ajustar el ancho */
-    height:           50%; /* Puedes ajustar la altura */
+    padding:          10px;
+    width:            40%;
+    height:           50%;
     location:         center;
     anchor:           center;
-    transparency:     "real"; /* Si tu compositor lo soporta */
-    border-radius:    10px; /* Bordes redondeados sutiles */
+    transparency:     "real";
+    border-radius:    10px;
 }
 
 mainbox {
     background-color: @background-color;
     border:           0px;
     padding:          0px;
+    children: [ sidebar, listview, inputbar ];
 }
 
 message {
@@ -77,6 +73,7 @@ listview {
     scrollbar:        false;
     layout:           vertical;
     padding:          5px;
+    reverse: true;
 }
 
 element {
@@ -144,8 +141,8 @@ button {
 }
 
 button selected {
-    background-color: @selected-normal-background;
-    text-color:       @selected-normal-foreground;
+    background-color: @accent;
+    text-color:       @selected-normal-background;
 }
 
 scrollbar {
@@ -154,3 +151,4 @@ scrollbar {
     border-radius:    0px;
     background-color: @background-color;
 }
+

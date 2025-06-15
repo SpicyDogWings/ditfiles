@@ -34,7 +34,7 @@ window#waybar.hidden {
   margin: 5px 3px;
   padding: 6px 12px;
   background-color: @background;
-  color: #EAEFEF;
+  color: @foreground;
 }
 
 #custom-logo {
@@ -54,12 +54,11 @@ window#waybar.hidden {
   margin: 6px 3px;
   border-radius: 4px;
   background-color: @background;
-  color: #7F8CAA;
+  color: @foreground;
   transition: padding 0.2s ease-out;
 
 }
 #workspaces button.active {
-  color: #eeeeee;
   color: @background;
   background-color: @accent;
   padding: 6px 30px;
@@ -67,7 +66,7 @@ window#waybar.hidden {
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
-  color: #2c2c2c;
+  color: @accent;
   background-color: @background-hover;
 }
 #battery.warning,
