@@ -1,3 +1,5 @@
+@import "mocha.css";
+
 * {
   border: none;
   border-radius: 0;
@@ -31,7 +33,7 @@ window#waybar.hidden {
   border-radius: 8px;
   margin: 5px 3px;
   padding: 6px 12px;
-  background-color: #333446;
+  background-color: @background;
   color: #EAEFEF;
 }
 
@@ -39,7 +41,7 @@ window#waybar.hidden {
   padding: 0 7px;
   margin: 0 20px 0 15px;
   font-size: 15px;
-  color: #333446;
+  color: @accent;
   background-color: transparent;
 }
 
@@ -51,59 +53,49 @@ window#waybar.hidden {
   padding: 6px 18px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #333446;
+  background-color: @background;
   color: #7F8CAA;
   transition: padding 0.2s ease-out;
 
 }
 #workspaces button.active {
   color: #eeeeee;
-  background-color: #578FCA;
+  color: @background;
+  background-color: @accent;
   padding: 6px 30px;
 }
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #2c2c2c;
-  background-color: #bbbbbb;
+  background-color: @background-hover;
 }
-#workspaces button.urgent {
-  background-color: #725CAD;
-}
-
 #battery.warning,
 #battery.critical,
-#battery.urgent {
-  background-color: #725CAD;
-  color: #eeeeee;
+#battery.urgent,
+#workspaces button.urgent {
+  background-color: @urgent;
+  color: @background;
 }
 #battery.charging {
-  background-color: #578FCA;
-  color: #eeeeee;
+  background-color: @accent;
+  color: @background;
 }
 
 #wireplumber {
   padding-right: 18px;
 }
-#wireplumber.muted {
-    background-color: #725CAD; /* Fondo rojo cuando está silenciado */
+#wireplumber.muted,
+#custom-microphone.muted {
+    background-color: @event;
+    color: @accent;
 }
-
 #custom-microphone {
     padding: 0 10px;
 }
-#custom-microphone.muted {
-    background-color: #725CAD; /* Fondo rojo cuando está silenciado */
-    color: #ffffff;
-}
-#custom-microphone.unmuted {
-    color: #ffffff;
-}
-
-/* Estilo si el micrófono no es detectado (Error) */
 #custom-microphone.error {
-    background-color: #FFA500; /* Fondo naranja para error */
-    color: #ffffff;
+    background-color: @error;
+    color: @background;
 }
 
 #network {
@@ -130,8 +122,8 @@ menuitem {
 tooltip {
   border-radius: 8px;
   padding: 15px;
-  color: #EAEFEF;
-  background-color: #333446;
+  color: @background;
+  background-color: @accent;
 }
 tooltip label {
   padding: 5px;
