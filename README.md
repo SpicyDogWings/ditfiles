@@ -10,5 +10,5 @@ Este repositorio trabaja con [Chezmoi](https://www.chezmoi.io/quick-start/#set-u
 Los siguientes paquetes son necesarios para el funcionamiento de los dotfiles.
 
 ```
-sudo pacman -Suy lazygit git chezmoi hyprland rofi-wayland hyprpaper nwg-look neovim neovide zed kitty nemo yazi fzf grim slurp libwireplumber wireplumber brightnessctl wl-clipboard playerctl xdg-desktop-portal-wlr xdg-desktop-portal hyprutils hyprland-protocols
+sudo pacman -Suy lazygit git chezmoi hyprland rofi-wayland hyprpaper nwg-look neovim neovide zed kitty nemo yazi fzf grim slurp libwireplumber wireplumber brightnessctl wl-clipboard playerctl xdg-desktop-portal-wlr xdg-desktop-portal hyprutils hyprland-protocols hyprlock
 ```

@@ -5,6 +5,7 @@ ROFI_ARGS="-dmenu -p Apagado -i"
 declare -A options
 options["   Power Off"]="systemctl poweroff"
 options["   Reboot"]="systemctl reboot"
+options["   Lock"]="hyprlock"
 options["   Logout"]="systemctl --user exit" # For Hyprland
 #options["   Logout"]="hyprctl dispatch exit 0" # For Hyprland
 #options[" Lock"]="loginctl lock-session"     # or 'swaylock' if you use it, or 'hyprlock'
